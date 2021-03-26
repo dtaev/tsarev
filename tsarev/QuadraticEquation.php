@@ -12,7 +12,7 @@ class QuadraticEquation extends LinearEquation implements EquationInterface
         return $b * $b - 4 * $a * $c;
     }
 
-    public function solve($a, $b, $c)
+    public function solve(float $a, float $b, float $c): array
     {
 
         if ($a == 0)
