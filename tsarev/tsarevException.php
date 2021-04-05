@@ -2,7 +2,7 @@
 
 namespace tsarev;
 
-class tsarevException extends \RuntimeException
+class TsarevException extends \RuntimeException
 {
 
 }

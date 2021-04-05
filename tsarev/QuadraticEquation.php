@@ -29,7 +29,7 @@ class QuadraticEquation extends LinearEquation implements EquationInterface
 
         if ($d < 0)
         {
-            throw new tsarevException("Equation doesn`t exist. \n\r");
+            throw new TsarevException("Equation doesn`t exist. \n\r");
         }
 
         return $this->x = [($b * (-1) - sqrt($d)) / (2 * $a), ($b * (-1) + sqrt($d)) / (2 * $a)];

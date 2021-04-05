@@ -7,7 +7,7 @@ class LinearEquation
     public function LinearEquation($a, $b)
     {
         if ($a == 0) {
-            throw new tsarevException("Equation doesn`t exist. \n\r");
+            throw new TsarevException("Equation doesn`t exist. \n\r");
         }
 
         MyLog::log("It's linear equation. \n\r");
